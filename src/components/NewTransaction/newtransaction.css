@@ -1,0 +1,91 @@
+.bg-container{
+    background-color: white;
+    border: 1px solid #000000;
+    min-height: 95vh;
+    width: 98vw;
+}
+.top-head{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98vw;
+    height: 80vh;
+    justify-content: space-around;
+}
+.head{
+    font-size: 25px;
+    margin: 0px;
+}
+.cross-btn{
+    outline: none;
+    border: none;
+    background: none;
+    height: 30px;
+    width: 30px;
+}
+.input-container{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+}
+.label{
+    font-size: 20px;
+    color: black;
+    
+}
+.selects{
+    width: 70%;
+    height: 30px;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    padding: 7px;
+}
+.options{
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+
+}
+.input{
+    border-bottom: 1px solid #000000;
+    width: 70%;
+    font-size: 15px;
+    outline: none;
+    background: none;
+    height: 40px;
+}
+.textarea{
+    border-bottom: 1px solid #000000;
+    width: 70%;
+    font-size: 15px;
+    outline: none;
+    height: 100px;
+    background: none;
+}
+.btn-container{
+    align-self: flex-end;
+
+}
+.save-btn{
+    background: #2f4ae2;
+    color: white;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.cancel-btn{
+    background: rgb(219, 218, 218);
+    color: black;
+    margin-right: 10px;
+    
+}

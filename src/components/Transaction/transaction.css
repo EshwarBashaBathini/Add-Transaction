@@ -1,0 +1,71 @@
+table {
+    width: 95%;
+    border-collapse: collapse;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;justify-content: center;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+.date{
+    width: 10%;
+}
+.title{
+    width:50%;
+}
+.top-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    width: 95%;
+}
+.transaction-name{
+    font-size: 18px;   
+    position: relative;
+}
+.transaction-name::before{
+    content:'';
+    position: absolute;
+    height: 3px;
+    width:0;
+    transition: all ease-in-out 600ms;
+    transition-delay: 300ms;
+    display: flex;
+    background-image: linear-gradient(to left, rgb(47, 28, 131), rgb(5, 57, 109),rgb(51, 21, 221),rgb(27, 107, 187));
+    display: inline-block;
+    margin-top: 2px;
+    bottom: -1%;
+    left: 0;
+    border-radius: 10px ;
+}
+.transaction-name:hover:before{
+    width: 100%;
+}
+
+
+.add-btn{
+    height: 30px;
+    background: #3461f3;
+    color: white;
+    font-size: 10px;
+ 
+    transition: all ease-in-out 900ms;
+    
+}
+.add-btn:hover{
+    background-color: white;
+    color: black;
+    outline: 1px solid #3461f3;
+    outline-offset: 0px;
+    box-shadow: 0px 1px 5px 1px #3461f3;
+
+}
